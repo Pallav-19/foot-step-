@@ -84,6 +84,7 @@ img.foot-step.second-foot{
 
 .flex {
     display: flex;
+    justify-content:space-around;
 }
 
 .white {
@@ -94,109 +95,6 @@ img.foot-step.second-foot{
     width : 70%;
     margin: 100px;
 }
-.wpfoot{
-    width: 96.54px;
-    height: 182.47px;
-    transform: rotate(-15.21deg);
-    padding-left:220px;
-    padding-top: 100px;
-    z-index: 99;
-   
-}
-.wpfoot2{
-    width:91.52px;
-    height: 177.43px;
-    transform: rotate(-27.76deg);
-  padding-left: 350px;
-  padding-bottom: 500px;
-  z-index: 99;
-}
-.wpfoot3{
-    width:94.15px;
-    height:187.09px;
-    transform: rotate(-71.52deg);
-    padding-left: 50px;
-    padding-top: 200px;
-    z-index: 99;
-}
-.wpfoot4{
-    width:91.9px;
-    height:176.72px;
-    transform:rotate(-74.96deg) ;
-   padding-left: 400px;
-   padding-top: 300px;
-   z-index: 99;
-}
-.wpfoot5{
-    width:96.54px ;
-    height:182.47px ;
-    transform: rotate(-79.14deg);
-   padding-left:150px ;
-   padding-top: 300px;
-   z-index: 99;
-}
-.wpfoot6{
-    width:96.54px ;
-    height:182.47px ;
-    transform: rotate(-65.14deg);
-   padding-top: 250px;
-   padding-left: 450px;
-}
-.wpfoot7{
-    width:93.12px ;
-    height:174.36px ;
-    transform: rotate(-32.08deg);
-   padding-left: 290px;
-   z-index: 99;
-}
-.wpfoot8{
-    width:150.77px;
-    height: 300.01px;
-    transform: rotate(38deg);
-    padding-bottom: 20px;
-    padding-left: 1700px;
-}
-.foot8{
-    width:250.77px;
-    height: 300.01px;
-}
-.wpfoot9{
-    width: 200px;
-    height:350px ;
-    padding-left: 1000px;
-    padding-bottom: 1000px;
-    transform: rotate(40deg);
-
-}
-.foot9{
-    width: 250px;
-    height:350px ;
-}
-.wplpfoot{
-    width:449px;
-    height:449.06px;
-    padding-left:200px;
-    padding-top: 100px;
-    opacity: 1;
-    
-}
-.wpdpfoot{
-    width:381.2px;
-    height:407.59px;
-    padding-right: 4000px;
-    padding-top: 160px;
-   
-}
-.grppp{
-    width: 500px;
-    height:384px;
-    padding-left: 100px;
-}
-.twof{
-    width: 449px;
-    height: 449.06px;
-    padding-left: 900px;
-}
 
 
 .footer{
@@ -205,7 +103,6 @@ img.foot-step.second-foot{
 
 .footer-area {
     background-color: #17060D;
-   
     bottom: 0;
 }
 
@@ -254,6 +151,10 @@ ul {
     position : realtive;
 }
 
+.foot9{
+    width: 250px;
+    height:350px ;
+}
 
 .foot-step {
 width : 100%;
@@ -360,7 +261,35 @@ img.foot-step2{
     width : 180%;
 }
 
+.foot_flex6{
+    justify-content:end;
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+}
 
+.wpfoot{
+    width: 96.54px;
+    height: 182.47px;
+    transform: rotate(-15.21deg);
+    padding-left:220px;
+    padding-top: 100px;
+    z-index: 99;
+   
+}
+
+.foot_flex7{
+   margin-left: 50%; 
+}
+
+.foot-step19{
+    margin-left : -60%;
+    margin-top: 20%;
+    
+}
+.foot-step18{
+    margin-right: -60%;
+}
 
 
 
